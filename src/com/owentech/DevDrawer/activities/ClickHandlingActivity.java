@@ -151,7 +151,9 @@ public class ClickHandlingActivity extends Activity
 						.getLaunchIntentForPackage(packageName);
 				LaunchIntent.addCategory(Intent.CATEGORY_LAUNCHER);
 				if(sp.getString("launchingIntents", "aosp").equals("aosp")){
-					LaunchIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
+					// LaunchIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED);
+					activity.startActivity(activity.getPackageManager().getLaunchIntentForPackage(packageName));
+					return;
 				}
 				else{
 					LaunchIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NO_HISTORY);
