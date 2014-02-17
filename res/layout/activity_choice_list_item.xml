@@ -9,7 +9,7 @@
             android:text="com.rentalcars.handset.activities"
             android:id="@+id/activityPathTextView" android:layout_toRightOf="@+id/imageView" android:layout_alignParentTop="true"
             android:textAppearance="@android:style/TextAppearance.Holo.Small" android:textSize="10dp"
-            android:layout_marginLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:textColor="#f80"
+            android:layout_marginLeft="5dp" android:paddingTop="5dp" android:paddingRight="5dp" android:textColor="#A4C739"
             android:fontFamily="sans-serif-light"
             android:layout_alignParentLeft="true" android:ellipsize="end"/>
 

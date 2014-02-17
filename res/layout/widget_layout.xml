@@ -9,7 +9,7 @@
             android:layout_height="match_parent"
             android:layout_width="5dp"
             android:id="@+id/orangeImage"
-            android:background="#FF8800"
+            android:background="#A4C739"
             />
 
 <ListView

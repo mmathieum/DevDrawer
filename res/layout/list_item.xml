@@ -26,7 +26,7 @@
             android:layout_toLeftOf="@+id/uninstallImageButton"
             android:layout_alignParentTop="true"
             android:textAppearance="@android:style/TextAppearance.Holo.Small" android:textSize="10dp"
-            android:layout_marginLeft="5dp" android:paddingTop="5dp" android:textColor="#f80"
+            android:layout_marginLeft="5dp" android:paddingTop="5dp" android:textColor="#A4C739"
             android:fontFamily="sans-serif-light" android:ellipsize="end" android:maxLines="1"/>
     <TextView
             android:layout_width="wrap_content"
